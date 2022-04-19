@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import lottie from "lottie-web";
 
-import reactLogoAnimation from "../../assets/animations/react-logo-animations.json";
+import reactLogoAnimation from "../../../assets/animations/react-logo-animations.json";
 // TODO: criar evento de hover e reanimar
 const ReactLogo = () => {
   const anime = useRef(null);
